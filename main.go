@@ -3,13 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
+	"net/http"
+	"os"
 
 	"github.com/jackdanger/collectlinks"
 	"github.com/kr/pretty"
-
-	"net/http"
-
-	"os"
 )
 
 func main() {
